@@ -4,6 +4,9 @@
   overflow: hidden;
   background: linear-gradient(rgba(47, 59, 89, 0.75), rgba(47, 59, 89, 0.75)),
     url(../images/jpg/about-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (min--moz-device-pixel-ratio: 2),
     only screen and (-o-min-device-pixel-ratio: 2/1),
