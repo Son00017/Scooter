@@ -383,7 +383,7 @@ h4 {
 .hero .desig-li {
   position: absolute;
   left: -16.5rem;
-  top: 20rem;
+  top: 19rem;
 }
 @media only screen and (max-width: 890px) {
   .hero .desig-li {
@@ -393,7 +393,7 @@ h4 {
 .hero .desig-ar {
   position: absolute;
   max-width: 44.7rem;
-  top: 20.2rem;
+  top: 19.2rem;
   height: 10rem;
   right: 13rem;
 }
