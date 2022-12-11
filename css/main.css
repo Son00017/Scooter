@@ -415,6 +415,7 @@ h4 {
 }
 @media only screen and (max-width: 560px) {
   .hero .desig-ar {
+    top: 35rem;
     left: -27.7rem;
   }
 }

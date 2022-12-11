@@ -95,6 +95,7 @@
       left: -12.7rem;
     }
     @include responsive(phone) {
+      top: 35rem;
       left: -27.7rem;
     }
   }
