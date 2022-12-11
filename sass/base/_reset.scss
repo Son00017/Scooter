@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-size: 15px;
+  line-height: 1.67;
+  color: #939caa;
+  font-family: $primary-font;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+  margin-top: 10rem;
+  @include responsive(l-phone) {
+    margin-top: 7.2rem;
+  }
+}
+a {
+  display: flex;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+button {
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+img {
+  display: flex;
+}
+.container {
+  max-width: 119rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  @include responsive(phone) {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+}
+a {
+  display: flex;
+}

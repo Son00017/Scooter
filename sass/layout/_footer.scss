@@ -1,0 +1,42 @@
+.footer {
+  background: #333a44;
+  padding: 2.2rem 0;
+  @include responsive(l-phone) {
+    padding: 6.4rem 0;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    @include responsive(l-phone) {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  &__logo {
+    path {
+      fill: #ffffff;
+    }
+    @include responsive(l-phone) {
+      margin-bottom: 4rem;
+    }
+  }
+  .navbar {
+    &__icon {
+      display: flex;
+      gap: 2.4rem;
+    }
+    @include responsive(l-phone) {
+      position: relative;
+      padding: 0;
+      top: 0;
+      &__list {
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8.5rem;
+      }
+    }
+  }
+}

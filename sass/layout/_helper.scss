@@ -1,0 +1,14 @@
+.hidden {
+  display: flex;
+  @include responsive(l-phone) {
+    display: none;
+  }
+}
+.accardion {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.4s;
+}
+.rotate {
+  transform: rotateX(180deg);
+}
