@@ -1,11 +1,18 @@
 .country {
   margin-bottom: 12rem;
   &__list {
+    p {
+      color: $darkNavy;
+    }
     li {
       background-color: $snow;
       padding: 4rem 3.2rem 6.4rem 3.5rem;
       display: flex;
       justify-content: space-between;
+      h4 {
+        color: $darkNavy;
+        margin-bottom: 0.8rem;
+      }
       @include responsive(phone) {
         flex-direction: column;
         text-align: center;
@@ -14,9 +21,7 @@
         h4 {
           font-size: 1.8rem;
           color: $darkNavy;
-        }
-        p {
-          color: $darkNavy;
+          margin-bottom: 8rem;
         }
         div {
           margin-bottom: 1.6rem;

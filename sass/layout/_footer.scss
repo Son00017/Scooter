@@ -26,8 +26,14 @@
     &__icon {
       display: flex;
       gap: 2.4rem;
+      a:hover {
+        svg path {
+          fill: #ffffff;
+        }
+      }
     }
     @include responsive(l-phone) {
+      height: auto;
       position: relative;
       padding: 0;
       top: 0;
@@ -35,6 +41,7 @@
         align-items: center;
         margin-right: auto;
         margin-left: auto;
+        gap: 0;
         margin-bottom: 8.5rem;
       }
     }
