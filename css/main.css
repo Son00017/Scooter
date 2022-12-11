@@ -192,7 +192,7 @@ h4 {
 }
 
 .header {
-  z-index: 100;
+  z-index: 1000;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.6980392157);
   width: 100%;
