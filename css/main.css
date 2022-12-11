@@ -583,6 +583,12 @@ h4 {
   right: 25rem;
   top: 0;
 }
+@media only screen and (max-width: 670px) {
+  .intro .img-phone .des {
+    top: 2rem;
+    right: 5rem;
+  }
+}
 .intro .img-phone .img {
   position: relative;
   display: inline-block;
@@ -591,8 +597,13 @@ h4 {
   left: -49.5rem;
 }
 .intro .threeth .des {
-  right: -37rem;
-  top: 10rem;
+  right: -53rem;
+  top: 8rem;
+}
+@media only screen and (max-width: 670px) {
+  .intro .threeth .des {
+    top: 0;
+  }
 }
 @media only screen and (max-width: 960px) {
   .intro__wrapper {

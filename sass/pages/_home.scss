@@ -273,6 +273,10 @@
       transform: rotateY(180deg);
       right: 25rem;
       top: 0;
+      @include responsive(l-phone) {
+        top: 2rem;
+        right: 5rem;
+      }
     }
     .img {
       position: relative;
@@ -284,8 +288,11 @@
   }
   .threeth {
     .des {
-      right: -37rem;
-      top: 10rem;
+      right: -53rem;
+      top: 8rem;
+      @include responsive(l-phone) {
+        top: 0;
+      }
     }
   }
   @include responsive(xl-table) {
