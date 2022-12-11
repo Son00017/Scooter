@@ -1,5 +1,6 @@
 .country {
   margin-bottom: 12rem;
+
   &__list {
     p {
       color: $darkNavy;
@@ -38,5 +39,19 @@
       width: 100%;
       height: 100%;
     }
+  }
+}
+
+.carer-container {
+  background: linear-gradient(#2f3b59ab, #2f3b59ca),
+    url(../images/jpg/career-bg.jpg);
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    background: linear-gradient(#2f3b59ab, #2f3b59ca),
+      url(../images/jpg/career-bg@2x.jpg);
   }
 }

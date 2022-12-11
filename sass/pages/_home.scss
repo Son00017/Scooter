@@ -4,6 +4,7 @@
     url(../images/jpg/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (min--moz-device-pixel-ratio: 2),
     only screen and (-o-min-device-pixel-ratio: 2/1),
@@ -72,7 +73,7 @@
   .desig-li {
     position: absolute;
     left: -16.5rem;
-    top: 20rem;
+    top: 11rem;
     @include responsive(l-table) {
       display: none;
     }
@@ -80,7 +81,7 @@
   .desig-ar {
     position: absolute;
     max-width: 44.7rem;
-    top: 20.2rem;
+    top: 11.2rem;
     height: 10rem;
     right: 13rem;
     @include responsive(s-desktop) {
