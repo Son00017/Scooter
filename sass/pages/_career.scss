@@ -45,6 +45,8 @@
 .carer-container {
   background: linear-gradient(#2f3b59ab, #2f3b59ca),
     url(../images/jpg/career-bg.jpg);
+  background-size: cover;
+  background-position: center;
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (min--moz-device-pixel-ratio: 2),
     only screen and (-o-min-device-pixel-ratio: 2/1),
@@ -53,5 +55,7 @@
     only screen and (min-resolution: 2dppx) {
     background: linear-gradient(#2f3b59ab, #2f3b59ca),
       url(../images/jpg/career-bg@2x.png);
+    background-size: cover;
+    background-position: center;
   }
 }

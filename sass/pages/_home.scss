@@ -13,6 +13,8 @@
     only screen and (min-resolution: 2dppx) {
     background: linear-gradient(#2f3b59ab, #2f3b59ca),
       url(../images/jpg/hero-bg@2x.jpg);
+    background-size: cover;
+    background-position: center;
   }
 
   &__wrapper {
