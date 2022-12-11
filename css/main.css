@@ -403,12 +403,12 @@ h4 {
 }
 @media only screen and (max-width: 890px) {
   .hero .desig-ar {
-    top: 35rem;
+    top: 27rem;
   }
 }
 @media only screen and (max-width: 768px) {
   .hero .desig-ar {
-    bottom: 7.8rem;
+    top: 27rem;
     left: -12.7rem;
   }
 }

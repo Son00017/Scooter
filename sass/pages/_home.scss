@@ -13,6 +13,7 @@
     background: linear-gradient(#2f3b59ab, #2f3b59ca),
       url(../images/jpg/hero-bg@2x.jpg);
   }
+
   &__wrapper {
     max-width: 50rem;
     h1 {
@@ -86,10 +87,10 @@
       top: 23.6rem;
     }
     @include responsive(l-table) {
-      top: 35rem;
+      top: 27rem;
     }
     @include responsive(table) {
-      bottom: 7.8rem;
+      top: 27rem;
       left: -12.7rem;
     }
     @include responsive(phone) {
