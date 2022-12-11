@@ -968,31 +968,13 @@ h4 {
   margin-bottom: 12rem;
 }
 .map__container {
-  background-image: url(../images/svg/map-bg.svg);
-  height: 54.3rem;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 4rem;
+  max-width: 111rem;
 }
-@media only screen and (max-width: 1120px) {
-  .map__container {
-    height: 50rem;
-  }
+.map__container .phon {
+  display: none;
 }
-@media only screen and (max-width: 890px) {
-  .map__container {
-    height: 40rem;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .map__container {
-    height: 33.7rem;
-  }
-}
-@media only screen and (max-width: 670px) {
-  .map__container {
-    height: 25.7rem;
-  }
+.map__container .desk {
+  width: 100%;
 }
 .map__wrapper {
   display: none;
@@ -1014,8 +996,15 @@ h4 {
 }
 @media only screen and (max-width: 560px) {
   .map__container {
-    height: 20.3rem;
-    background-image: url(../images/svg/map-ph.svg);
+    max-width: 111rem;
+    margin-bottom: 4rem;
+  }
+  .map__container .phon {
+    width: 100%;
+    display: block;
+  }
+  .map__container .desk {
+    display: none;
   }
   .map__wrapper {
     display: block;
